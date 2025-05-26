@@ -11,7 +11,6 @@ services:
     env_file:
       - .env
     environment:
-      - PORT=8001
       - NODE_ENV=production
       - SERVER_BASE_URL=http://localhost:8001
       - NEXT_PUBLIC_SERVER_BASE_URL=http://localhost:8001
